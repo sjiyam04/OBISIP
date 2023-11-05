@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="ss.css">
+</head>
+<body>
+    <header class="nav-content">
+        <div class="navbar"> 
+            <div class="logo">Cafeiya</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="login-button animate_animated animate_bounce">Login</button>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="home-img">
+            <img src="images/home.jpeg" class="img">
+        </div>
+
+        <div class="home-text">
+            <h3 class="title">WELCOME TO CAFEIYA</h3>
+            <p class="description">Welcome to your Best Coffee House</p>
+        </div>
+    </section>
+<!------------------top products------------------>
+
+    <h2 style="text-align: center; color: black;">Mostly Demanded</h2>
+    <div class="container-row-sq">
+        <div class="container-sq">
+            <img src="images/coffee-1.jpeg" alt="Image 1">
+            <div class="overlay">
+                <h2>Mocha Coffee</h2>
+                <p>$100</p>
+            </div>
+        </div>
+        <div class="container-sq">
+            <img src="images/cookies-2(korak-cheesecake).jpeg" alt="Image 2">
+            <div class="overlay">
+                <h2>Korak Cheesecake</h2>
+                  <p>$80</p>
+            </div>
+        </div>
+        <div class="container-sq">
+            <img src="images/cookies-1.jpeg" alt="Image 3">
+            <div class="overlay">
+                <h2>Waffles</h2>
+                <p>$75</p>
+            </div>
+        </div>
+    </div>
+
+
+<!---------------round container---------------------->
+<section class="round-container-section" id="shop">
+    <div class="round">
+        <div class="round-container">
+            <div class="round-img" id="glass">
+            <img src="images/coffee-glass.jpg" alt="Image 1">
+            </div>
+            <div class="round-text">
+                <button class="menu-button" data-slide="0">Shakes</button>
+            </div>
+        </div>
+        <div class="round-container">
+            <div class="round-img" id="mug">
+            <img src="images/coffee-mug.jpg" alt="Image 2">
+            </div>
+            <div class="round-text">
+                <button class="menu-button" data-slide="1">Coffee</button>
+            </div>
+        </div>
+        <div class="round-container">
+            <div class="round-img">
+            <img src="images/cookies.jpg" alt="Image 3">
+            </div>
+            <div class="round-text">
+                <button class="menu-button" data-slide="2">Cookies</button>
+            </div>
+        </div>
+        <div class="round-container">
+            <div class="round-img">
+            <img src="images/bread.jpg" alt="Image 4">
+            </div>
+            <div class="round-text">
+                <button class="menu-button" data-slide="3">Food</button>
+            </div>
+        </div>
+        <div class="round-container">
+            <div class="round-img">
+                <img src="images/coffee-ready.jpg" alt="Image 5">
+            </div>
+            <div class="round-text">
+                <button class="menu-button" data-slide="4">Packed</button>
+            </div>
+        </div>
+        <div class="round-container">
+            <div class="round-img">
+                <img src="images/choco.jpeg" alt="Image 6">
+            </div>
+            <div class="round-text">
+                <button class="menu-button" data-slide="5">Ready</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+<!-------------about section------------>
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <p><h1>"Awaken your senses with each sip at Cafeiya, <br>where the art of coffee meets the poetry of flavors,<br> and every cup is a journey to savor."</h1></p>
+                <p>We provide a variety of products made out of coffee!</p>
+                <button class="login-button animate_animated animate_bounce" id="about">Know more</button>
+        </div>
+        <div class="hero-image">
+            <img src="images/beans.png" alt="[Your Name]">
+        </div>
+    </section>
+
+    <section class="about-c" id="about">
+        <div class="container-row">
+            <div class="button">
+                <img src="images/airplane.png">
+                <div class="button-text">
+                    <b>FREE SHIPPING</b>
+                    <p>order above 300</p>
+                </div>
+            </div>
+            <div class="button">
+                <img src="images/wallet.png">
+                <div class="button-text">
+                    <b>CASH ON DELIVERY</b>
+                    <p>100% money return</p>
+                </div>
+            </div>
+            <div class="button">
+                <img src="images/gift.png">
+                <div class="button-text">
+                    <b>SPECIAL GIFT CARD</b>
+                    <p>get bonus with coupan</p>
+                </div>
+            </div>
+            <div class="button">
+                <img src="images/support.png">
+                <div class="button-text">
+                    <b>24/7 CUSTOMER SUPPORT</b>
+                    <p>call us on 123-24-56789</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!------------------------------------conatct------------------------>
+<section class="contact-section" id="contact">
+
+    <div class="left">
+        <img src="images/contact-2-removebg-preview.png">
+    </div>
+
+    <div class="right">
+        <div class="contact-form">
+            <h2>Contact</h2>
+            <form>
+              <div class="form-group">
+                <input type="text" id="first-name" placeholder="First Name" required>
+                <input type="text" id="last-name" placeholder="Last Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                <textarea id="message" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="button-85" role="button">Submit</button>
+            </form>
+        </div>
+      
+    </div>
+</section>
+
+
+<!---------footer section------------->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/cafeiya.png" alt="Your Logo" id="jiya">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="https://www.facebook.com/">Faccbook</a></li>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/">Linked In</a></li>
+                    <li><a href="https://github.com/">Github</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <p>Contact Us:</p>
+                <p>Email: info@example.com</p>
+                <p>Phone: +1 (123) 456-7890</p>
+            </div>
+        </div>
+        <span class="footer__copy">&#169; J. All rigths reserved</span>
+    </footer>
+
+
+
+
+<!-----------------------JAVA SCRIPT------------------>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const sliderContainer = document.querySelector('.slider');
+      const menuButtons = document.querySelectorAll('.menu-button');
+  
+      menuButtons.forEach(button => {
+        button.addEventListener('click', function () {
+          const slideIndex = this.getAttribute('data-slide');
+          sliderContainer.style.transform = `translateX(-${slideIndex * 100}%)`;
+        });
+      });
+    });
+  </script>
+  
+
+</body>  
