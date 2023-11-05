@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <title>Temprature Converter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="converter">
+    <form id="calctemp" onsubmit="calculatetemp(); return false">
+    <h1>Temprature Converter</h1>
+
+    <div class="list">
+        <label for="from" id="from">From :&nbsp;</label>
+        <select name="list1" id="list1">
+            <option value="select1">Select</option>
+            <option value="f1">Fahrenheit</option>
+            <option value="c1">Celsius</option>
+            <option value="k1">Kelvin</option>
+        </select>
+    &nbsp;    &nbsp;    &nbsp;&nbsp;&nbsp;
+
+        <label for="to" id="to">To :&nbsp;</label>
+        <select name="list2" id="list2">
+            <option value="select2">Select</option>
+            <option value="f2">Fahrenheit</option>
+            <option value="c2">Celsius</option>
+            <option value="k2">Kelvin</option>
+        </select>
+    </div>
+
+    <div class="degree">
+        <label for="degree" id="degree">Enter Degree :&nbsp;</label>
+        <input type="number" name="number"  id="number" placeholder="Enter degree">
+    </div>
+    <button id="result">Result&nbsp;</button>
+    <br>
+    <br>
+    <input type="submit" name="submit" id="submit"> 
+        
+       
+
+    
+
+    </form>
+</div>
+<script src = "script.js">
+
+
+</script>
+</body>
+</html>
